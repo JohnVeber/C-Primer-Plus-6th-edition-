@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+# ВСЕ ПОД ЭТИМ КОММЕНТАРИЕМ БЫЛО В ФАЙЛЕ С Github (добавлен только перевод)
+# ВСЕ ВЫШЕ ЭТОГО КОММЕНТАРИЯ ДОБАВЛЕНО САМОСТОЯТЕЛЬНО
+
+# Prerequisites (предварительные условия)
+*.d
+
+# Object files (объектные файлы)
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output (вывод компоновщика)
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers (предварительно скомпиллированные заголовки)
+*.gch
+*.pch
+
+# Libraries (библиотеки)
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs) (общие объекты, включая динамические библиотеки Windows)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables (Исполняемые файлы)
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files (отладочные файлы)
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results (результаты компилляции модуля ядра)
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
