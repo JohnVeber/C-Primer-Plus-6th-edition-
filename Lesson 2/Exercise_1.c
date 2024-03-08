@@ -2,7 +2,8 @@
 
 int main (void)
 {
-    printf("Hello, world\n");
+    printf("Евгений Вебер\n");
+    printf("Евгений\nВебер\n");
+    printf("Евгений Вебер\n");
     return 0;
 }
-// gcc -std=c99 -o outputfile sourcefile.c
