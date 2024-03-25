@@ -1,9 +1,10 @@
+// Ex.7
+
 #include <stdio.h>
 
 void smile (void); // Function declaration
 
-int main (void)
-{
+int main (void){
     smile(); 
     smile();
     smile();
@@ -11,11 +12,13 @@ int main (void)
     smile();
     smile();
     printf("\n");
-    smile(); 
+    smile();
+    printf("\n\n"); //Just to separate output
     return 0;
 }
 
-void smile (void) // (1st function definition)
-{
-    printf("Улыбайся!");
+// (1st function definition)
+void smile (void){
+    printf("Smile!");
 }
+
