@@ -1,4 +1,4 @@
-// Ex 1 -- overflow initiation.*/
+// Ex. 1 -- overflow initiation.
 
 #include <stdio.h>
 #include <limits.h> // To print MAX values of apptoriate types (Cases 1,2)

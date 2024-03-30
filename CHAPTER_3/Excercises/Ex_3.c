@@ -1,4 +1,4 @@
-// Ex 3 -- sound signal output.*/
+// Ex. 3 -- sound signal output.
 #include <stdio.h>
 
 int main (void){

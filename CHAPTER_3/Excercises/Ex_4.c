@@ -1,3 +1,4 @@
+// Ex. 4 -- print a symbol baced on their ASCII code input.
 #include <stdio.h>
 int main(void){
     float input;
