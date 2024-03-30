@@ -6,3 +6,7 @@ g + 1 = 1431671424.000000 (why?)
 Bug # 2.
 Ex.1 Case 4.
 Unexpected value (900001024.000000) at row 44
+
+Bug # 3.
+Ex.3 
+Can't achieve sound signal output. Code is correct.
