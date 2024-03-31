@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main (void){
+int main(void){
     int home, building, flat;
     home = 5;
     building = 1;

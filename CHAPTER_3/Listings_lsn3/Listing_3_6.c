@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <inttypes.h> // поддерживает переносимые типы
 #include <locale.h>
-int main(void)
-{
+int main(void){
 	setlocale(LC_ALL, "russian");
 	int32_t me32; // me32 -- это 32-битная переменная со знаком
 

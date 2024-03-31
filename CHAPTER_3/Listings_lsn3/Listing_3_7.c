@@ -1,8 +1,7 @@
 /* showf_pt.c -- отображает значение типа float двумя способами */
 #include <stdio.h>
 //#include <locale.h>
-int main(void)
-{
+int main(void){
 	//setlocale(LC_ALL, "russian");
 	float aboat = 32000.0;
 	double abet = 2.14e9;

@@ -1,6 +1,6 @@
 /* badcount.c -- an incorrect quantity of arguments */
 #include <stdio.h>
-int main (void){
+int main(void){
     int n = 4;
     int m = 5;
     float f = 7.0f;

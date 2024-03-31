@@ -1,7 +1,7 @@
 // Ex. 2 -- print a symbol baced on their ASCII code input.
 #include <stdio.h>
 
-int main (void){
+int main(void){
     int asciicode;
     printf("Enter any ASCII code please:");
     scanf("%u", &asciicode);

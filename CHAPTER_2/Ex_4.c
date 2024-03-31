@@ -2,10 +2,10 @@
 
 #include <stdio.h>
 
-void jolly (void); // The first prototype (function declaration)
-void deny (void); // The 2nd prototype (function declaration)
+void jolly(void); // The first prototype (function declaration)
+void deny(void); // The 2nd prototype (function declaration)
 
-int main (void){
+int main(void){
     jolly(); // Call of the 1st func 1st time
     jolly();
     jolly();
@@ -14,11 +14,11 @@ int main (void){
 }
 
 // (1st function definition)
-void jolly (void){
+void jolly(void){
     printf("Он веселый молодец!\n");
 }
 
 // (2nd function definition)
-void deny (void){
+void deny(void){
     printf("Никто не может это отрицать!\n\n");
 }

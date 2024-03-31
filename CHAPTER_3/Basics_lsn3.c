@@ -3,8 +3,7 @@
 /* Listing 3.3 bases.c -- decimal, okctal and hexadecimal form of number
 Prefixes displays at the row 2*/
 #include <stdio.h>
-int main (void)
-{
+int main(void){
     int x=100;
     printf("Десятичное = %d; восьмеричное = %o; шестнадцатеричное = %x\n", x, x, x);
     /*Префиксы*/

@@ -2,9 +2,9 @@
 
 #include <stdio.h>
 
-void smile (void); // Function declaration
+void smile(void); // Function declaration
 
-int main (void){
+int main(void){
     smile(); 
     smile();
     smile();
@@ -18,7 +18,7 @@ int main (void){
 }
 
 // (1st function definition)
-void smile (void){
+void smile(void){
     printf("Smile!");
 }
 

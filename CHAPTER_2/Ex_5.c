@@ -2,10 +2,10 @@
 
 #include <stdio.h>
 
-void br (void); // The first prototype (function declaration)
-void ic (void); // The 2nd prototype (function declaration)
+void br(void); // The first prototype (function declaration)
+void ic(void); // The 2nd prototype (function declaration)
 
-int main (void){    
+int main(void){    
     br(); // Call of the 1st func 1st time
     printf(", ");
     ic(); // Call of the 2nd func
@@ -18,11 +18,11 @@ int main (void){
 }
 
 // (1st function definition)
-void br (void){
+void br(void){
     printf("Brasil, Russia");
 }
 
 // (2nd function definition)
-void ic (void){
+void ic(void){
     printf("India, China");
 }

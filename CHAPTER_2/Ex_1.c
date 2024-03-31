@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main (void){
+int main(void){
     printf("Evgeny Veber\n");
     printf("Evgeny\nVeber\n");
     printf("Evgeny Veber\n");

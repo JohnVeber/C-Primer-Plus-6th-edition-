@@ -1,7 +1,7 @@
 // Ex. 3 -- sound signal output.
 #include <stdio.h>
 
-int main (void){
+int main(void){
     char beep;
     // 1 st way
     beep = 7;

@@ -1,8 +1,7 @@
 /*toobig.c --превышение максимально возможного значения int в системе*/
 #include <stdio.h>
 
-int main (void)
-{
+int main(void){
     int i = 2147483647;
     unsigned int j = 4294967295;
 
