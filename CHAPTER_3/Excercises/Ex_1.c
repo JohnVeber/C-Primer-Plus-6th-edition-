@@ -40,6 +40,8 @@ int main(void){
     \rQuantity of bits in mantisse- %d\n", FLT_MAX_10_EXP, FLT_MANT_DIG);
     l = 9E8;
     m = 1E3;
+    float q = l+m;
+    printf("Summ is q = %f\n", q); 
     printf("l = %f, m = %f\n", l, m);
     printf("Overflow: %f\n\n\n", l+m); // Result is 900001024.000000 (why? What about MAX float size?)
 

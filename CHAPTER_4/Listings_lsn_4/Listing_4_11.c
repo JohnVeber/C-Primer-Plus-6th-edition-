@@ -37,8 +37,6 @@ int main(void){
      (max 2 bytes unsidned short int value- 65535 and 0) and keeping only the remainder
     // In this case the remaining is 82, and it corresponds to  'R' character of ASCII table.
     
-	printf("%d\n\n\n", SHRT_MAX);
-
 	return 0;
 }
 
