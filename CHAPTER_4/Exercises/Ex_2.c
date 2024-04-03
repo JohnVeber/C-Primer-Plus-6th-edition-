@@ -6,7 +6,7 @@ int main(void){
 	int length;
 	int len;
 
-	printf("Enter your name and surname please.\n");
+	printf("Please enter your name.\n");
 	scanf("%s", &name); 
 
 	printf("\"%s\"\n", name );   // Case a
