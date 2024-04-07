@@ -11,7 +11,7 @@ int main(void){
 
 	choosen_option = menu();
 
-	while(choosen_option !=4){
+	while(choosen_option != 4){
 		if(choosen_option >= upper || choosen_option <= lower){
 			printf("LET'S TRY AGAIN I SAID!!!\n");
 			choosen_option = menu();
@@ -40,4 +40,4 @@ int menu(void){
 }
 
 // Note 1.
-// Works incorrect. Tried to use %f inside menu()- Useless
+// Non-integer values are not processed correctly. Tried to use %f inside menu()- Useless
