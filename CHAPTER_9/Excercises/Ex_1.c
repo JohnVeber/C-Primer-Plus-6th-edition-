@@ -17,16 +17,11 @@ int main(void){
 	return 0;
 }
 
-double min(double x, double y){ // int type of returned value of this function was a mistake 1
+double min(double x, double y){ // int type of returned value of this function was my mistake 1
 	if (x > y)
 		return y;
 	else
 		return x;
-	// return 0; it was mistake 2
+	// return 0; it was my mistake 2
 }
 
-// Bug 1.
-// Incorrect result with two negative values
-
-// Попробовать сравнить отдельно положительные и отрицательные
-// Ниндзя предложил убрать else и безусловно вернуть у если х не был возвращен!

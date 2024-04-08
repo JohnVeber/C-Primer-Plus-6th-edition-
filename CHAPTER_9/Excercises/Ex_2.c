@@ -1,6 +1,5 @@
-// Ex_2.c
- /* Devise a function chline(ch,i,j) that prints the requested character in columns i
- * through j. Test it in a simple driver. */
+// Ex_2.c -- Devise a function chline(ch,i,j) that prints the requested character in columns i
+ * through j.
 
 #include <stdio.h>
 void chline(double ch, int i, int j);

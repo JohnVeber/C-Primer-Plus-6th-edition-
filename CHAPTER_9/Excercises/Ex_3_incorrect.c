@@ -5,7 +5,9 @@
 void lines(char ch, int n_of_ch, int n_of_lines);
 
 int main(void){
-    lines('$', 20, 4);
+    int chars = 20;
+    int line = 4;
+    lines('$', chars, line);
     printf("\n\n\n");
     return 0;
 }
@@ -13,11 +15,13 @@ int main(void){
 void lines(char ch, int n_of_ch, int n_of_lines){
     int count_ch = 0;
     int count_r = 0;
-    while(count_r++ < n_of_lines){
-        while(count_ch++ < n_of_ch){
+    while(count_r < n_of_lines){
+        while(count_ch < n_of_ch){
             printf("%c", ch);
+            count_ch++;
         }
         printf("\n");
+        count_r++;
     }
 }
 

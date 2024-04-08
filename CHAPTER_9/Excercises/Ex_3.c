@@ -5,20 +5,21 @@
 void lines(char ch, int n_of_ch, int n_of_lines);
 
 int main(void){
-    lines('$', 20, 4);
+    lines('$', 19, 15);
     printf("\n\n\n");
     return 0;
 }
 
 void lines(char ch, int n_of_ch, int n_of_lines){
     int count_ch = 0;
-    int count_r;
-    for(count_r = 0; count_r < n_of_lines; count_r++){
-        while(count_ch++ < n_of_ch){
+    int count_r = 0;
+    while(count_r < n_of_lines){
+        while(count_ch < n_of_ch){
             printf("%c", ch);
+            count_ch++;
         }
+        count_ch = 0; // We need to zeroing this counter before the next batch of internal cycle iterations
         printf("\n");
+        count_r++;
     }
 }
-
-// The function works incorrectly
