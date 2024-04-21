@@ -5,7 +5,7 @@
 void foo(double *first, double *second, double *third);
 
 int main(void){
-	double x = 30, y = 30, z = -126.0;
+	double x = 3, y = 30, z = -126.0;
 
     printf("Initially x = %f, y = %f and z = %f\n", x, y, z);
     foo(&x, &y, &z);
