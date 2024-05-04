@@ -1,5 +1,4 @@
-// Ex_3.c -- a function with simple output : lines of charachters
-
+/* Ex_3.c -- a function with simple output : lines of charachters. */
 
 #include <stdio.h>
 void lines(char ch, int n_of_ch, int n_of_lines);
@@ -18,7 +17,7 @@ void lines(char ch, int n_of_ch, int n_of_lines){
             printf("%c", ch);
             count_ch++;
         }
-        count_ch = 0; // We need to zeroing this counter before the next batch of internal cycle iterations
+        count_ch = 0;/* We need to zeroing this counter before the next batch of internal cycle iterations.*/
         printf("\n");
         count_r++;
     }

@@ -1,6 +1,7 @@
-// Ex_4.c Harmonic mean of two numbers
+/* Ex_4.c Harmonic mean of two numbers. */ 
 
 #include <stdio.h>
+
 double har_mean(double x, double y);
 
 int main(void){

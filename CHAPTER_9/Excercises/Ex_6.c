@@ -1,4 +1,4 @@
-// Ex_6.c -- sorting three variable values in the calling function.
+/* Ex_6.c -- sorting three variable values in the calling function. */ 
 
 #include <stdio.h>
 

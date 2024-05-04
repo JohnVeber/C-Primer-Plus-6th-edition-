@@ -1,4 +1,4 @@
-// Ex_1.c -- a function that returns the lower of two of "double" type  values 
+/* Ex_1.c -- a function that returns the lower of two of "double" type  values. */ 
 
 #include <stdio.h>
 
@@ -17,11 +17,9 @@ int main(void){
 	return 0;
 }
 
-double min(double x, double y){ // int type of returned value of this function was my mistake 1
+double min(double x, double y){
 	if (x > y)
 		return y;
 	else
 		return x;
-	// return 0; it was my mistake 2
 }
-
