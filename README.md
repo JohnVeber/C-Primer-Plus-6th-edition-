@@ -1,4 +1,4 @@
-# C Primer Plus, Sixth Edition.
+# C Primer Plus (Sixth Edition).
 
 This is my firsts attempts of solving tasks menioned at C Primer Plus, sixth edition book. This repo includes solutions for all mentioned exercises.
 
