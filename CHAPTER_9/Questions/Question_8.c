@@ -1,5 +1,5 @@
-// Question_8.c -- function which return MAX of three values
-// This version shall work correctly with insigned integers
+/* Question_8.c -- function which return MAX of three values.*/
+/* This version shall work correctly with signed and unsigned integers. */
 
 #include <stdio.h>
 
@@ -27,5 +27,3 @@ int max_of_3(int *x, int *y, int *z){
 		return *y;
 	return 0;
 }
-
-// This program handles negative arguments incorrectly

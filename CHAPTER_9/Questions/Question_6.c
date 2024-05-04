@@ -21,7 +21,7 @@ int main(void){
 	return 0;
 }
 
-int alter(int *x, int *y){
+int alter(int *x, int *y){ // x and y are pointers and *x *y have int type.
 	int summ = *x + *y;
 	int diff = *x - *y;
 
