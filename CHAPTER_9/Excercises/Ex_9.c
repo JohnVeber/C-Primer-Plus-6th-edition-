@@ -21,27 +21,24 @@ int main(void)
 
 double power(double n, int p){
     double pow = 1;
-    int i;
-    /* First group of cases (n != 0).*/
-    if((n != 0) && (p > 0)){
-        for(i = 1; i <= p; i++)
-            pow *= n;
+    if(n != 0){
+        if(p > 0){
+            pow = n * power(n, (p-1));
+        }
+        else if(p < 0){
+            pow = 1/(n * power(n, ((-p)-1)));
+        }
+        else
+            pow = 1;
         return pow;
     }
-    else if((n != 0) && (p < 0)){
-        for(i = 1; i <= (-p); i++)
-            pow *= n;
-        return (1/pow);
-    }
-    else if((n != 0) && (p = 0)){
+    else if((n == 0)){
+        if(p != 0){
+	        printf("Zero to any power other than zero is zero.\n");
+            return 0;
+        }
+        else
+	        printf("The result is undefined. We use 1 as result.\n");
         return 1;
     }
-    /* Second group of cases (n == 0)*/
-    if((n == 0) && (p != 0)){
-	    printf("Zero to any power other than zero is zero.\n");
-        return 0;
-    }
-    else
-	    printf("The result is undefined. We use 1 as result.\n");
-        return 1;
 }
