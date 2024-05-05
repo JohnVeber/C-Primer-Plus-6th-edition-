@@ -1,4 +1,5 @@
-// Ex_7.c -- reading characters till EOF.
+/* Ex_7.c -- reading characters till EOF. Task have been changedf a bit:
+an ASCII code of input charachters outputs instead of alphabet number. */
 
 #include <stdio.h>
 
@@ -7,33 +8,33 @@ int char_number(char);
 int main(void){
 	char x;
     printf("Enter any symbol:\n");
-
+    int ret_val = 0;
     while ((x = getchar()) != EOF){
-        if(char_number(x) != -1){
-            printf("Enter the next one:\n");
+        ret_val = char_number(x);
+        if(ret_val == -1){
             continue;
         }
-        else 
-        break;
+        if(ret_val == -2){
+            printf("This isn't charachter.");
+            break;
+        }
+        printf("Enter the next one:\n");
     }
-    printf("This isn't charachter.");
+    //printf("x = %d.", x);
     return 0;
 }
 
 int char_number(char character){
-    if(((character > 64) & (character < 91)) || ((character > 96) & (character < 123))){
-        int ret = (int)character;
+    int ret = (int)character;
+    if(((ret > 64) && (ret < 91)) || ((ret > 96) && (ret < 123))){
         printf("You entered ");
         putchar(character);
         printf(". This is characters with ASCII code %d\n", ret);
         
         return ret;
     }
-    else
-        //printf("This isn't charachter.");
-	    return -1;
+    else if(ret == '\n'){
+        return -1;
+    }
+    return -2;
 }
-
-// (((character <= 64) || (character >= 91)) & ((character <= 96) || (character >= 123)))
-
-// IN PROGRESS
