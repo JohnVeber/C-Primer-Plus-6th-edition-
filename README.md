@@ -10,7 +10,7 @@ These solutions are not optimal both in terms of memory and processor resources,
 
 ## Organization
 
-1. Each dir named "CHAPTER" contains only the code from the specific chapter.
+1. Each dir named "CHAPTER" contains only code from the specific chapter.
 2. Inside them you can find "Listings" folder which contains only interesting examples of author's code I decidet to test.
 3. You can also find "Questions" folder inside some of "Chapters" folders. I put inside a code of all of questions which paid my attention more than others.
 4. Finally you can find "Excercises" folders and fules named "Chapter_x_bugs.txt". 
