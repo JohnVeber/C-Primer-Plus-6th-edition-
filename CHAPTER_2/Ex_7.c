@@ -21,4 +21,3 @@ int main(void){
 void smile(void){
     printf("Smile!");
 }
-

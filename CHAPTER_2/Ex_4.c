@@ -15,10 +15,10 @@ int main(void){
 
 // (1st function definition)
 void jolly(void){
-    printf("Он веселый молодец!\n");
+    printf("He is a cheerful guy!\n");
 }
 
 // (2nd function definition)
 void deny(void){
-    printf("Никто не может это отрицать!\n\n");
+    printf("Nobody can deny it!\n\n");
 }

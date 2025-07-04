@@ -4,8 +4,7 @@
 #define DAYPERYEAR 365
 
 int main(void){
-    int age=36;
+    int age=38;
     printf("I'm %d days old.\n\n", age*DAYPERYEAR);
     return 0;
 }
-

@@ -10,5 +10,3 @@ int main(void){
     printf("Evgeny, Moscow, Lenina Str., %d, b.%d., %d\n", home, building, flat);
     return 0;
 }
-
-
