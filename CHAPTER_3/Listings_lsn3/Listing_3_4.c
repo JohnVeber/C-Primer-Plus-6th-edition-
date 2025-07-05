@@ -1,4 +1,5 @@
 /*print2.c -- дополнительные свойства функции printf() */
+
 #include <stdio.h>
 //#include <locale.h>
 int main(void)
@@ -16,4 +17,4 @@ int main(void)
 
 	return 0;
 }
-// компилируется как в листинге!
+//Issue at row 16. It seems long and long long in the system are stored simslarly.
